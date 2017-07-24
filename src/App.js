@@ -3,7 +3,7 @@ import style from 'styled-components'
 import './video.css'
 
 const Wrapper = style.div`
-	max-width: 1200px;
+	max-width: 1201px;
 `
 const Video = style.div`
 position: fixed;
