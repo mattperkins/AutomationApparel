@@ -16,6 +16,7 @@ export default class App extends Component {
 	constructor(props) {
 	super(props)
 	this.state = {
+	youtubeVideoUrl: 'https://www.youtube.com/embed/i9IkIl3U02A?autoplay=1&mute=1'
 	}
 }
 
@@ -25,7 +26,7 @@ export default class App extends Component {
 
 <Video>		
 	
-	<iframe height="100%" width="100%" src="https://www.youtube.com/embed/i9IkIl3U02A?&autoplay=1&mute=1" frameborder="0" title="Automation Apparel" allowfullscreen/>
+	<iframe height="100%" width="100%" src={this.state.youtubeVideoUrl} frameborder="0" title="Automation Apparel" allowfullscreen/>
   		
 
 </Video>		
