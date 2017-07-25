@@ -10,7 +10,7 @@ export default class App extends Component {
 constructor(props) {
 super(props)
 this.state = {
-youtubeVideoUrl: 'https://www.youtube.com/embed/i9IkIl3U02A'
+youtubeVideoUrl: 'https://www.youtube.com/embed/yISZkS2VaIk'
 }
 }
 

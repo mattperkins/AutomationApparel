@@ -7,11 +7,7 @@ import { Wrapper } from './theme'
 const Brand = styled.h1`
 font-size: 72px;
 `
-export default class App extends Component {
-constructor(props) {
-super(props)
-}
-
+export default class Header extends Component {
 render() {
 return (
 
