@@ -9,10 +9,10 @@ font-size: 72px;
 `
 export default class Header extends Component {
 render() {
+const brand = "Automation Apparel"
 return (
-
 <Wrapper>
-<Brand>Automation Apparel</Brand>
+<Brand>{brand}</Brand>
 </Wrapper>
     
 )
